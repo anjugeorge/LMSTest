@@ -1,0 +1,111 @@
+h1,h2,h3,h4,h5,h6,a,th,td{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.SignInImageSection h2, .SignInImageSection h3{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.SignInContentSection{
+	float:right;}
+.SignInImageSection{
+	float: left;
+	width: 50%;
+	background-color: #281c6c;
+
+}
+
+
+
+
+.SignInContentSection input{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #000000;
+	width: 270px;
+	margin-left: 20px;
+}
+
+
+
+.loginHeading{
+	margin-bottom: 50px;
+}
+
+.userIcon, .passwordIcon{
+	position: absolute;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 10px;
+  border-width: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bolder;
+  background: #0b3838;
+  padding: 8px 120px 8px 120px;
+  text-decoration: none;
+  display: block;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background: #1c8d8d;
+  text-decoration: none;
+}
+
+.notRegistered{
+	margin-top: 50px;
+}
+
+.signUp{
+	text-decoration: none;
+	color: #2B4865;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.forgotPassword{
+	text-decoration: none;
+	color: #2B4865;
+	font-size: 15px;
+	margin-left: 60px;
+}
+
+@media(min-width: 1024px){
+	.SignInImageSection h2{
+	padding-top: 50px;
+}
+.SignInImageSection h3{
+	padding-top: 5px;
+}
+.SignInContentSection{
+	padding-top: 100px;
+	padding-right: 50px;
+}
+.SignInImageSection img{
+	width: 100%;
+	margin-left: 170px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+.SignInImageSection img{
+	width: 100%;
+}
+
+.SignInContentSection{
+	padding-top: 60px;
+	padding-right: 100px;
+}
+}
